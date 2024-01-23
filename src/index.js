@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Home } from './component/Home';
+import Calculator from './component/Calculator';
+import CountApp from './component/CountApp';
+import QuizApp from './component/QuizApp';
+import List from './component/TodoApp';
+import Card2 from './component/Card2';
+import SearchFilter from './component/Search';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <SearchFilter/>
   </React.StrictMode>
 );
 
